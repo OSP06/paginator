@@ -1,0 +1,72 @@
+/* ReportList.module.css */
+.container {
+    margin: 2rem auto;
+    padding: 1rem;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+  }
+  
+  .title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .reportItem {
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .reportItem:last-child {
+    border-bottom: none;
+  }
+  
+  .reportDetails {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .reportTitle {
+    font-size: 1.25rem;
+    color: #0070f3;
+  }
+  
+  .reportDate {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .paginator {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #f9f9f9;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #0070f3;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .button:disabled {
+    background-color: #bbb;
+  }
+  
